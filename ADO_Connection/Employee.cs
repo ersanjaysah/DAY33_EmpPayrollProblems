@@ -11,7 +11,7 @@ namespace ADO_Connection
     {
         public static void AddEmployee(EmployeeModel model)
         {
-            string ConnectionString = @"(DESKTOP-LM9061V)\MSSQLLocalDB";
+            string ConnectionString = @" Data Source=DESKTOP-LM9061V;Initial Catalog=PayRollService;Integrated Security=True;";
             model = new EmployeeModel
             {
                 EmployeeID = 15,
